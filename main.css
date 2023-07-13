@@ -1,0 +1,55 @@
+*{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: darkslategrey;
+    color: white;
+    padding: 24px 0;
+    position: sticky;
+
+}
+header h1{
+    font-size: 32px;
+    text-align: center;
+}
+body{
+    padding: 16px 0;
+    background-color: white;
+}
+.container{
+    margin: 16px;
+    padding: 16px 0;
+    position: relative;
+}
+#contato h2{
+    padding: 16px;
+    font-size: 24px;
+}
+
+#contato .container{
+    padding-top: 16px;
+    margin: 0;
+    position: absolute;
+    left: 40%;
+    margin-right: -40%;
+}
+.form-campo input{
+    width: 150%;
+    display: block;
+    padding: 8px;
+    margin: 8px 0;
+    border-radius: 8px;
+}
+button{
+    background-color: darkslategrey ;
+    color: white;
+    margin-top: 16px;
+    width: 159%;
+    border: none;
+    padding: 8px 0;
+    border-radius: 8px;
+    cursor: pointer;
+}
